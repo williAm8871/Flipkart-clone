@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #2874f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+}
+.logocontainer{
+
+}
+.logo{
+    width: 80px;
+    position: relative;
+    top: 2px;
+}
+.logo img{
+    width: 100%;
+}
+.explore{
+    width: 80px;
+    display: flex;
+    white-space: nowrap;
+    
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+    position: relative;
+    top: -2px;
+}
+.explore p{
+    margin: 0;
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+    font-weight: 550px;
+}
+.explore img{
+    width: 10px;
+    height: 10px;
+    margin: 0;
+}
+.icon{
+    color: #ffe500;
+}
